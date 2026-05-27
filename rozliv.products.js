@@ -359,7 +359,7 @@ const products = {
   },
 
   pivo_7: {
-    photo: "images/Жив.png",
+    photo: "images/zivoe.png",
     nazvanie: "Живое Светлое",
     tara_1: "0.45 л с/т",
     tara_2: "ПЭТ 1,8 л",
