@@ -345,7 +345,7 @@ const products = {
   },
 
   pivo_6: {
-    photo: "images/Живое пластик.png",
+    photo: "images/zivoe plastik.png",
     nazvanie: "Живое Крепкое",
     tara_1: "ПЭТ 1,35 л",
     tara_2: "ПЭТ 1,8 л",
@@ -373,7 +373,7 @@ const products = {
   },
 
   pivo_8: {
-    photo: "images/Классическое.png",
+    photo: "images/classicheskoe.png",
     nazvanie: "Наше Классическое",
     tara_1: "ПЭТ 0,9 л",
     tara_2: "ПЭТ 1.8 л",
