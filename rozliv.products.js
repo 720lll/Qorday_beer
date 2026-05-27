@@ -317,7 +317,7 @@ const products = {
   },
 
   pivo_4: {
-    photo: "images/Шахта.png",
+    photo: "images/shaxta.png",
     nazvanie: "Шахта оригинальное",
     tara_1: "0.45 л с/т",
     tara_2: "ПЭТ 1.8 л",
@@ -387,7 +387,7 @@ const products = {
   },
 
   pivo_9: {
-    photo: "images/урбааан.png",
+    photo: "images/urban.png",
     nazvanie: "Urban 312",
     tara_1: "0.45 л с/т",
     tara_2: "1.35 л ПЭТ",
@@ -445,7 +445,7 @@ const products = {
 // БЕЗАЛКОГОЛНЫЕ
 
   kola: {
-    photo: "images/кола ретро.png",
+    photo: "images/kola retro.png",
     nazvanie: "Retro Cola",
     tara_1: "0.45 л ж/б",
     tara_2: "0.9 л ПЭТ",
@@ -459,7 +459,7 @@ const products = {
   },
 
   fanta: {
-    photo: "images/фанта ретро.png",
+    photo: "images/fanta retro.png",
     nazvanie: "Retro Tango",
     tara_1: "0.45 л ж/б",
     tara_2: "0.9 л ПЭТ",
@@ -473,7 +473,7 @@ const products = {
   },
 
   sprite: {
-    photo: "images/спрайт ретро.png",
+    photo: "images/sprite retro.png",
     nazvanie: "Retro Twist",
     tara_1: "0.45 л ж/б",
     tara_2: "0.9 л ПЭТ",
