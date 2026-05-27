@@ -331,7 +331,7 @@ const products = {
   },
 
   pivo_5: {
-    photo: "images/Баф.png",
+    photo: "images/buff.png",
     nazvanie: "Buff",
     tara_1: "0.45 л с/т",
     tara_2: "1,35 л ПЭТ",
@@ -457,7 +457,7 @@ const products = {
     krepkost: "",
     plotnost: "",
   },
-  
+
   fanta: {
     photo: "images/фанта ретро.png",
     nazvanie: "Retro Tango",
@@ -487,7 +487,7 @@ const products = {
   },
 
   lemo_1: {
-    photo: "images/лемо1.png",
+    photo: "images/lemo1.png",
     nazvanie: "Lemo Персик-Личи<",
     tara_1: "0,45 л ж/б",
     tara_2: "",
@@ -501,7 +501,7 @@ const products = {
   },
 
   lemo_2: {
-    photo: "images/лемо2.png",
+    photo: "images/lemo2.png",
     nazvanie: "Lemo Арбуз-Клубника",
     tara_1: "0,45 л ж/б",
     tara_2: "",

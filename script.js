@@ -100,10 +100,10 @@ function closeMenu(btn) {
 const cities = [
   { id: 'korday', name: '✈︎ Кордай', photos: ['images/bavaria rozliv.png', '/images/bavaria plastik.png', 'images/живое Разливное.png', 'images/живое пластик.png', 'images/Кузнец золотой Разливное.png', 'images/кузнец золотой.png', 'images/Мюнхен Разливное.png', 'images/жив.png', 'images/шахта.png', 'images/шахта кор.png', 'images/черный.png', 'images/желтый.png', 'images/нитро1.png', 'images/нитро2.png', 'images/нитро3.png', 'images/нитро4.png', 'images/нитро5.png', 'images/kvas1.png', 'images/kvas2.png', 'images/kvas3.png'] },
   { id: 'almaty', name: '✈︎ Алматы', photos: ['images/Классическое.png','images/чех.png', 'images/bavaria plastik.png', 'images/РедСан Разливное.png', 'images/Мюнхен Разливное.png', 'images/жив.png', 'images/шахта.png', 'images/черный.png', 'images/желтый.png', 'images/синий.png'] },
-  { id: 'taraz', name: '✈︎ Тараз', photos: ['images/баф.png', 'images/жив.png', 'images/шахта.png', 'images/bavaria plastik.png', 'images/живое Разливное.png', 'images/нитро2.png', 'images/нитро3.png', 'images/черный.png', 'images/макс.png', 'images/Кузнец черный Разливное.png'] },
-  { id: 'shymkent', name: '✈︎ Шымкент', photos: ['images/Чех.png', 'images/шахта кор.png', 'images/Живое пластик.png', 'images/кузнец золотой.png', 'images/bavaria plastik.png', 'images/Баф.png', 'images/kvas1.png', 'images/kvas2.png', 'images/макс.png', 'images/оранжевый.png'] },
-  { id: 'balhash', name: '✈︎ Балхаш', photos: ['images/баф.png', 'images/лунтик.png', 'images/жив.png', 'images/нитро1.png', 'images/нитро2.png', 'images/нитро3.png', 'images/черный.png','images/макс.png'] },
-  { id: 'kostanay', name: '✈︎ Костанай', photos: ['images/лемо1.png', 'images/лемо2.png', 'images/голубой.png', 'images/зеленый.png', 'images/баланс1.png', 'images/баланс2.png', 'images/баланс3.png'] },
+  { id: 'taraz', name: '✈︎ Тараз', photos: ['images/buff.png', 'images/жив.png', 'images/шахта.png', 'images/bavaria plastik.png', 'images/живое Разливное.png', 'images/нитро2.png', 'images/нитро3.png', 'images/черный.png', 'images/макс.png', 'images/Кузнец черный Разливное.png'] },
+  { id: 'shymkent', name: '✈︎ Шымкент', photos: ['images/Чех.png', 'images/шахта кор.png', 'images/Живое пластик.png', 'images/кузнец золотой.png', 'images/bavaria plastik.png', 'images/buff.png', 'images/kvas1.png', 'images/kvas2.png', 'images/макс.png', 'images/оранжевый.png'] },
+  { id: 'balhash', name: '✈︎ Балхаш', photos: ['images/buff.png', 'images/luntik.png', 'images/жив.png', 'images/нитро1.png', 'images/нитро2.png', 'images/нитро3.png', 'images/черный.png','images/макс.png'] },
+  { id: 'kostanay', name: '✈︎ Костанай', photos: ['images/lemo1.png', 'images/lemo2.png', 'images/голубой.png', 'images/зеленый.png', 'images/баланс1.png', 'images/баланс2.png', 'images/баланс3.png'] },
 ]
 
 function openCity(id) {
