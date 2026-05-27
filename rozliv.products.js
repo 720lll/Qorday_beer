@@ -275,7 +275,7 @@ const products = {
 
 // ПИВО
   pivo_1: {
-    photo: "images/Чех.png",
+    photo: "images/chex.png",
     nazvanie: "Czech Quality",
     tara_1: "ПЭТ 1.8 л",
     tara_2: "Кега 30л",
