@@ -303,7 +303,7 @@ const products = {
   },
 
   pivo_3: {
-    photo: "images/Бавария пластик.png",
+    photo: "images/bavaria plastik.png",
     nazvanie: "Bavarian",
     tara_1: "ПЭТ 1.8 л",
     tara_2: "Кега 30л",
@@ -457,6 +457,7 @@ const products = {
     krepkost: "",
     plotnost: "",
   },
+  
   fanta: {
     photo: "images/фанта ретро.png",
     nazvanie: "Retro Tango",
@@ -584,7 +585,7 @@ const products = {
   },
 
   kvas_1: {
-    photo: "images/квас1.png",
+    photo: "images/kvas1.png",
     nazvanie: "Живой Квас Овсяный",
     tara_1: "ПЭТ 0.9 л",
     tara_2: "ПЭТ 1.25 л",
