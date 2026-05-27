@@ -289,7 +289,7 @@ const products = {
   },
 
   pivo_2: {
-    photo: "images/кузнец золотой.png",
+    photo: "images/kuzya zolotoi.png",
     nazvanie: "KUZNEЦ Belgian Blond Ale",
     tara_1: "0.45 л с/т",
     tara_2: "Кега 30л",
@@ -415,7 +415,7 @@ const products = {
   },
 
   pivo_11: {
-    photo: "images/кузнец синий.png",
+    photo: "images/kuzya sinii.png",
     nazvanie: "Kuzneц Black Pilsner",
     tara_1: "0.33 л с/т",
     tara_2: "Кега 10 л",
