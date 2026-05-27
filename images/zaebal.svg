@@ -1,0 +1,52 @@
+<svg width="200" height="90" viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e0e10"></stop>
+      <stop offset="100%" stop-color="#1c1c22"></stop>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe8a6"></stop>
+      <stop offset="100%" stop-color="#c59a2c"></stop>
+    </linearGradient>
+
+    <linearGradient id="beer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd77a"></stop>
+      <stop offset="100%" stop-color="#d08f00"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="90" rx="12" fill="url(#bg)"></rect>
+
+  <!-- пшеница -->
+  <g transform="translate(12,18)">
+    <path d="M14 60 C14 45, 14 30, 14 10" stroke="url(#gold)" stroke-width="2.2"></path>
+
+    <path d="M14 18 C8 18, 8 22, 14 24 C20 22, 20 18, 14 18Z" fill="url(#gold)"></path>
+    <path d="M14 26 C7 26, 7 30, 14 32 C21 30, 21 26, 14 26Z" fill="url(#gold)"></path>
+    <path d="M14 34 C7 34, 7 38, 14 40 C21 38, 21 34, 14 34Z" fill="url(#gold)"></path>
+    <path d="M14 42 C8 42, 8 46, 14 48 C20 46, 20 42, 14 42Z" fill="url(#gold)"></path>
+  </g>
+
+  <!-- кружка (чуть левее, чтобы текст влез) -->
+  <rect x="70" y="28" width="20" height="34" rx="5" fill="#f5f5f5"></rect>
+  <rect x="90" y="34" width="6" height="22" rx="3" fill="none" stroke="#f5f5f5" stroke-width="2"></rect>
+
+  <rect x="72" y="32" width="16" height="24" rx="3" fill="url(#beer)"></rect>
+
+  <!-- пена -->
+  <circle cx="76" cy="32" r="3.2" fill="#fff"></circle>
+  <circle cx="81" cy="30" r="4.2" fill="#fff"></circle>
+  <circle cx="86" cy="32" r="3.2" fill="#fff"></circle>
+
+  <!-- ТЕКСТ (теперь полностью помещается) -->
+  <text x="100" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#f2f2f2">
+    Qorday_Beer
+  </text>
+
+  <text x="100" y="63" font-family="Arial, sans-serif" font-size="8" fill="#9a9a9a" letter-spacing="0.8">
+    beer brand
+  </text>
+
+</svg>

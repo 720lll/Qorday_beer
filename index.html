@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/img_logo.jpg">
+    <title>Qorday_Beer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="col">
+       <header>
+          <nav class="container">
+
+            <div class="logo">
+              <img src="images/br.svg" class="Photo_logo">
+            </div>
+
+              <div class="menu">
+
+                <div class="nav_comp">
+                  <div class="companiya">
+                    <button class="btn_3">О компании</button>
+                    <div class="dropdown_2">
+                      <h2 class="o_nas">Абдыш-Ата – один из крупнейших производителей алкогольных и безалкогольных напитков Кыргызстана. Компания «Абдыш-Ата» была создана в 2000 году на базе Кантского сахарного завода, заложенного в далеком 1929 году. Начиная с экспериментальных нескольких ящиков пива торговой марки «Наше», компания постепенно набирала обороты. В результате были разработаны рецептуры, в основу которых легли эксклюзивные сорта хмеля и сочетание разных видов солода.</h2>
+                  
+                    </div>
+                  </div>
+                </div>
+
+              <a href="catalog.html" class="btn_1 catalog">Каталог</a>
+
+              <div class="nav_novosti">
+                <div class="novosti">
+                  <button class="btn_1">новости</button>
+                  <div class="dropdown_3">
+                    <h3 class="o_nas_2">Новостей пока нет.</h3>
+
+                  </div>
+                </div>
+              </div>
+
+                <div class="nav">
+                  <div class="contacts">
+                    <button class="btn_2">Контакты</button>
+                    <div class="dropdown">
+                      <a href="tel:+77007777070">+7 700 777 70 70</a>
+                      <a href="tel:+77007007777">+7 700 700 77 77</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </nav>
+        </header>
+  <div class="wrapper">
+  <h1>Наша продукция</h1>
+  <h3>Продукция нашей компании отличается высоким качеством<br>
+и зарекомендовала себя на рынке как народный продукт</h3>
+<div class="area">
+  <div class="track">
+    <div class="group">
+      <img src="images/Чех.png" class="Photo">
+      <img src="images/Баф.png" class="Photo">
+      <img src="images/Живое пластик.png" class="Photo">
+      <img src="images/урбааан.png" class="Photo">
+      <img src="images/Бавария пластик.png" class="Photo">
+      <img src="images/Классическое.png" class="Photo">
+      <img src="images/жив.png" class="Photo">
+      <img src="images/Живое пластик.png" class="Photo">
+      <img src="images/лунтик.png" class="Photo">
+    </div>
+
+    <div class="group">
+      <img src="images/Чех.png" class="Photo">
+      <img src="images/Баф.png" class="Photo">
+      <img src="images/Живое пластик.png" class="Photo">
+      <img src="images/урбааан.png" class="Photo">
+      <img src="images/Бавария пластик.png" class="Photo">
+      <img src="images/Классическое.png" class="Photo">
+      <img src="images/жив.png" class="Photo">
+      <img src="images/Живое пластик.png" class="Photo">
+      <img src="images/лунтик.png" class="Photo">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+          <!--КАРТА-->
+<div class="map">
+  <h1>Наши бренды по казахстану</h1>
+  <img src="images/карт_изм.png" class="map_photo">
+
+  <!-- кнопки прямо в .map -->
+<button class="btn_map_m1 btn_korday" onclick="openCity('korday')">Кордай</button>
+<button class="btn_map_m1 btn_almaty" onclick="openCity('almaty')">Алматы</button>
+<button class="btn_map_m1 btn_taraz" onclick="openCity('taraz')">Тараз</button>
+<button class="btn_map_m1 btn_shymkent" onclick="openCity('shymkent')">Шымкент</button>
+<button class="btn_map_m1 btn_balhash" onclick="openCity('balhash')">Балхаш</button>
+<button class="btn_map_m1 btn_kostanay" onclick="openCity('kostanay')">Костанай</button>
+
+<div class="dropdown_map01" id="city_dropdown">
+  <button class="close" onclick="closeCity()">✕</button>
+  <h2 id="city_name" class="zagolovok_map"></h2>
+  <div id="city_photos"></div>
+</div>
+
+
+
+<div class="menu_2">
+  <button class="btn_menu btn_01">Пенные напитки</button>
+  <button class="btn_menu btn_02">Безалкогольные напитки</button>
+  <button class="btn_menu btn_03">Энергетики</button>
+  <button class="btn_menu btn_04">Разливные напитки</button>
+</div>
+
+
+
+
+
+<div class="cards">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+    </div>
+  </div>
+
+  <div class="opisanie">
+    <h2 class="zagolovok_ops"></h2>
+    <p class="text_1"></p>
+    <p class="text_2"></p>
+    <button class="strelki swiper-prev">⬅</button>
+    <button class="strelki swiper-next">⮕</button>
+  </div>
+</div>
+
+
+<footer class="col_footer">
+  <p>© 2026 Qorday Beer. Все права защищены.</p>
+</footer>
+
+
+</div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

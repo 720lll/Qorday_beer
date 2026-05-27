@@ -1,0 +1,77 @@
+<svg width="200" height="90" viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0d"></stop>
+      <stop offset="100%" stop-color="#1c1c22"></stop>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe8a3"></stop>
+      <stop offset="100%" stop-color="#c79a2b"></stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="beer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd77a"></stop>
+      <stop offset="100%" stop-color="#d08f00"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="90" rx="14" fill="url(#bg)"></rect>
+
+  <!-- левая пшеница (более детализированная) -->
+  <g transform="translate(18,18)" filter="url(#glow)" fill="url(#gold)">
+    <path d="M12 62 C12 45, 12 30, 12 10" stroke="#d9b24c" stroke-width="2" fill="none"></path>
+
+    <ellipse cx="12" cy="16" rx="6" ry="3"></ellipse>
+    <ellipse cx="16" cy="24" rx="6" ry="3"></ellipse>
+    <ellipse cx="8" cy="24" rx="6" ry="3"></ellipse>
+    <ellipse cx="16" cy="32" rx="6" ry="3"></ellipse>
+    <ellipse cx="8" cy="32" rx="6" ry="3"></ellipse>
+    <ellipse cx="12" cy="40" rx="6" ry="3"></ellipse>
+    <ellipse cx="12" cy="48" rx="5" ry="2.5"></ellipse>
+  </g>
+
+  <!-- правая пшеница -->
+  <g transform="translate(42,18)" filter="url(#glow)" fill="url(#gold)">
+    <path d="M12 62 C12 45, 12 30, 12 10" stroke="#d9b24c" stroke-width="2" fill="none"></path>
+
+    <ellipse cx="12" cy="16" rx="6" ry="3"></ellipse>
+    <ellipse cx="16" cy="24" rx="6" ry="3"></ellipse>
+    <ellipse cx="8" cy="24" rx="6" ry="3"></ellipse>
+    <ellipse cx="16" cy="32" rx="6" ry="3"></ellipse>
+    <ellipse cx="8" cy="32" rx="6" ry="3"></ellipse>
+    <ellipse cx="12" cy="40" rx="6" ry="3"></ellipse>
+    <ellipse cx="12" cy="48" rx="5" ry="2.5"></ellipse>
+  </g>
+
+  <!-- кружка (стильнее) -->
+  <rect x="82" y="22" width="26" height="42" rx="6" fill="#f5f5f5"></rect>
+  <rect x="108" y="30" width="8" height="28" rx="4" fill="none" stroke="#f5f5f5" stroke-width="2"></rect>
+
+  <!-- пиво -->
+  <rect x="84" y="28" width="22" height="32" rx="4" fill="url(#beer)"></rect>
+
+  <!-- пена -->
+  <circle cx="88" cy="28" r="4.5" fill="#fff"></circle>
+  <circle cx="95" cy="26" r="5.5" fill="#fff"></circle>
+  <circle cx="102" cy="28" r="4.5" fill="#fff"></circle>
+
+  <!-- текст -->
+  <text x="120" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#f3f3f3" letter-spacing="0.6">
+    Qorday_Beer
+  </text>
+
+  <text x="120" y="67" font-family="Arial, sans-serif" font-size="9" fill="#a8a8a8" letter-spacing="1.2">
+    craft brewery
+  </text>
+
+</svg>
